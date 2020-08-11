@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"><input type="button" value="Teacher's Login"></div>
+    <section class="left-section">
+        <div id="left-cover" class="cover cover-hide">
+            <img src="cover.png" alt="">
+           
+            <button type="button" class="switch-btn" onclick="location.reload()">Login</button>
+        </div>
+        <div id="left-form" class="form fade-in-element">
+            <h1 class="l">Login</h1>
+            <form action="login.php" method="post">
+                <input type="text" name="user-name" class="input-box" placeholder="User Name" required>
+                <input type="password" name="user-pass" class="input-box" placeholder="Password" required>
+                <input type="submit" name="login-btn" class="btn" value="Login">
+            </form>
+        </div>
+    </section>
+
+    <section class="right-section">
+        <div id="right-cover" class="cover fade-in-element">
+          
+          
+            <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
+        </div>
+        <div id="right-form" class="form form-hide">
+            <h1 class="l">Signup</h1>
+            <form action="signup.php" method="post">
+                <input type="text" name="user-name" class="input-box" placeholder="User Name" required>
+                <input type="email" name="user-email" class="input-box" placeholder="Email" required>
+                <input type="password" name="user-pass" class="input-box" placeholder="Password" required>
+                <input type="text" name="user-coll" class="input-box" placeholder="College Name" required>
+                <input type="number" name="user-regi" class="input-box" placeholder="College Registration no." required>
+                <input type="number" name="user-mob" class="input-box" placeholder="Mobile no." required>
+                <input type="submit" name="signup-btn" class="btn" value="Signup">
+            </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+body{
+    background: url("57.jpg") no-repeat center fixed;
+    background-size: cover;
+    animation: mymove 30s infinite;
+    background-position: top bottom;
+
+}
+.container{
+    max-width: 800px;
+    height: 700px;
+    border:10px solid rgb(238, 52, 39);
+   border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;   
+}
+.container1{
+    max-width: 100%;
+    height: 75px;
+    border:2px solid rgb(223, 48, 16);
+   border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;   
+    background: linear-gradient(to top, rgb(235, 10, 178), #4c09e9);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.header{
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+    background: linear-gradient(to top, green, #e96e09);
+    -webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+
+.logbody{
+    margin: 10px;
+    
+}
+
+.btn{
+    margin: auto;
+    padding: 10px 35px;
+    background-color: #09fd09f3;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 25px #a8a8a8;
+    transition: box-shadow 0.5s;
+    outline: none;
+}
+.btn:hover {
+    width: 200px;
+    height: 50px;
+    box-shadow: 5px 5px 15px #aaa;
+    transform:translate(5px,-5px);
+    animation:soliution 1s ease-in-out infinite alternate;
+}
+.submit{
+    text-align: center;
+    box-shadow: 15px 15px 25px #a8a8a8;
+    transition: box-shadow 0.5s;
+    outline: none;
+    background-color:#09fd09f3;
+    cursor: pointer;
+    max-width: 200px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+.submit:hover {
+    box-shadow: 5px 5px 15px #aaa;
+    transform:translate(5px,-5px);
+    animation:soliution 1s ease-in-out infinite alternate;
+}
+.submitmsg{
+    font-size: 40px;
+    color: green;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+   
+}
+input ,  select{
+    min-width: 100%;
+    display: block;
+    margin: 20px;
+    padding: 15px 20px;
+    background-color: #ece7e7;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    box-shadow: 15px 15px 25px #a8a8a8;
+    transition: box-shadow 0.5s;
+}
+.form input:focus {
+    box-shadow: 5px 5px 15px #a8a8a8;
+}
+form{
+    font-family: 'Roboto Mono', monospace;
+    
+    
+    
+}
+form label{
+    background: linear-gradient(to top, rgb(231, 26, 180), #e96e09);
+    -webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+    font-size: 15px;
+}
+
+@keyframes mymove{
+    0%{
+     background: url("57.jpg") no-repeat center fixed;
+     background-size: cover;
+     background-position: center;
+    }
+     40%{
+         background: url("61.jpg") no-repeat center fixed;
+         background-size: cover;
+         background-position: center;
+       
+     }
+     80%{
+         background: url("58.jpg") no-repeat center fixed;
+         background-size: cover;
+         background-position: center;
+       
+     }
+     100%{
+         background: url("57.jpg") no-repeat center fixed;
+     background-size: cover;
+     background-position: center;
+     }
+   
+ }
+
+ input:hover{
+    transform:translate(5px,-5px);
+   animation:soliution 1s ease-in-out infinite alternate;
+   }
+
+   .color{
+       background-color: red;
+       border: none;
+       border-radius: 10px;
+       box-shadow: 15px 15px 25px #a8a8a8;
+       transition: box-shadow 0.5s;
+       color: #fff;
+       border: none;
+       outline: none;
+       
+   }
+ 
+    .color:hover{
+        box-shadow: 5px 5px 15px #aaa;
+        transform:translate(5px,-5px);
+        animation:soliution 1s ease-in-out infinite alternate;
+
+    }
+
+
+    
+    @media only screen and (max-width: 881px){
+
+        .container1{
+            max-width: 100%;
+            height: 170px;
+            border-top:2px solid rgb(233, 48, 16);
+            border-bottom:2px solid rgb(233, 48, 16);
+          
+            margin-bottom: 50px;
+            margin-top: 50px;   
+            background: linear-gradient(to top, rgb(235, 10, 178), #4c09e9);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+        }
+
+    }
